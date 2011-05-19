@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Collections;
 
 namespace Timbii.BIKEUI.Prototypes.DotNetInterface
 {
@@ -9,6 +9,8 @@ namespace Timbii.BIKEUI.Prototypes.DotNetInterface
     {
         static void Main(string[] args)
         {
+            String[] x = new String[0];
+            Interface.createToolkit(x);
         }
     }
 }
