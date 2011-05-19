@@ -8,7 +8,9 @@ Make sure BIKE's C++ library can connect to a .NET library.
 Project Notes
 -------------
 Custom Build step copies DLL files from dll folder to build target directory on successful build
+
 Program.cs: Test harness only
+
 Interface.cs: Prototype code
 
 Methodology
