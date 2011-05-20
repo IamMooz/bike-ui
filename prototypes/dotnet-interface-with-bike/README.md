@@ -27,3 +27,4 @@ Findings
 * C# knows nothing about the types of methods it's calling; we have to set that up on our end
 * Setting up a .NET type to be used by a pointer in C++ is known as "marshaling"; sets up an area of memory and passes the pointer to the C++ code
 * AccessViolationException occurs whenever a bad pointer is hit in BIKE
+* ITS FRIDAY FRIDAY GOTTA GET DOWN ON FRIDAY
