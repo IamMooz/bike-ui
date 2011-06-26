@@ -1,0 +1,26 @@
+﻿Build started 10/06/2011 3:17:39 PM.
+     1>Project "d:\clrTest\clrTest\clrTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\clrTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt cli.cpp /clr:nostdlib 
+         cli.cpp
+     1>d:\clrtest\clrtest\cli.h(27): warning C4172: returning address of local variable or temporary
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\clrTest\Debug\clrTest.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\clrTest.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\clrTest\Debug\clrTest.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\cli.obj
+         Debug\native.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         clrTest.vcxproj -> d:\clrTest\Debug\clrTest.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"d:\clrTest\Debug\clrTest.dll;#2" /manifest Debug\clrTest.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\clrTest.unsuccessfulbuild".
+         Touching "Debug\clrTest.lastbuildstate".
+     1>Done Building Project "d:\clrTest\clrTest\clrTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
